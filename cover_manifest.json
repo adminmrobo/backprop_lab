@@ -1,0 +1,10 @@
+{
+ "series_ko": "역전파 연구실",
+ "title_ko": "손잡이 33개를 한 번에 돌리는 법 — 실험 노트 00",
+ "site_url": "https://adminmrobo.github.io/backprop_lab/",
+ "site_title": "역전파 연구실 · 실험 노트 — 손잡이 33개를 한 번에 돌리는 법",
+ "languages": ["ko"],
+ "i18n": {"langs": ["ko"], "pages": {"ko": 1}, "readme_langs": ["ko"]},
+ "items": [],
+ "updated": "2026-11-13"
+}

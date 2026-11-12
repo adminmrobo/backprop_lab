@@ -1,0 +1,41 @@
+{
+ "budget_forward_passes": 2000,
+ "rows": [
+  {
+   "width": 4,
+   "params": 33,
+   "start_mae": 5638,
+   "backprop_mae": 889,
+   "one_knob_updates": 58,
+   "one_knob_mae": 1424,
+   "random_mae": 847
+  },
+  {
+   "width": 16,
+   "params": 321,
+   "start_mae": 5054,
+   "backprop_mae": 850,
+   "one_knob_updates": 6,
+   "one_knob_mae": 2625,
+   "random_mae": 879
+  },
+  {
+   "width": 64,
+   "params": 4353,
+   "start_mae": 4705,
+   "backprop_mae": 897,
+   "one_knob_updates": 0,
+   "one_knob_mae": 4705,
+   "random_mae": 968
+  },
+  {
+   "width": 256,
+   "params": 66561,
+   "start_mae": 5207,
+   "backprop_mae": 867,
+   "one_knob_updates": 0,
+   "one_knob_mae": 5207,
+   "random_mae": 990
+  }
+ ]
+}

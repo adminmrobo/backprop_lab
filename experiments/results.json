@@ -1,0 +1,1686 @@
+{
+ "data": {
+  "days": 366,
+  "year": 2012,
+  "mean_rides": 5600,
+  "min_day": {
+   "date": "2012-10-29",
+   "rides": 22,
+   "temp_c": 18.0
+  },
+  "max_day": {
+   "date": "2012-09-15",
+   "rides": 8714
+  }
+ },
+ "network": {
+  "layers": "1-4-4-1 ReLU",
+  "params": 33,
+  "lr": 0.05,
+  "rounds": 400
+ },
+ "trace_30c": {
+  "date": "2012-06-23",
+  "temp_c": 30.0,
+  "real": 7458,
+  "guess_at_start": -63
+ },
+ "chain_path": {
+  "hidden1": 2,
+  "hidden2": 3,
+  "w_h1_to_h2": 0.346,
+  "w_h2_to_out": -0.896,
+  "product": -0.31
+ },
+ "grad_check_max_abs_diff": 9.999998454901515e-05,
+ "backprop": {
+  "mae_start": 5638,
+  "mae_end": 944,
+  "forward_equiv": 800,
+  "seconds": 0.033,
+  "curve": [
+   5638,
+   1327,
+   1234,
+   1204,
+   1684,
+   1510,
+   1412,
+   1363,
+   1314,
+   1269,
+   1229,
+   1194,
+   1167,
+   1131,
+   1150,
+   1188,
+   1136,
+   1111,
+   1093,
+   1070,
+   1048,
+   1043,
+   1030,
+   1017,
+   1007,
+   995,
+   990,
+   988,
+   979,
+   975,
+   972,
+   970,
+   964,
+   958,
+   952,
+   946,
+   942,
+   941,
+   944,
+   945,
+   944
+  ],
+  "guess_30c_end": 6800
+ },
+ "one_knob_at_a_time": {
+  "mae_end": 943,
+  "forward_passes": 13600,
+  "seconds": 0.304,
+  "curve": [
+   5638,
+   1327,
+   1234,
+   1204,
+   1683,
+   1510,
+   1412,
+   1363,
+   1314,
+   1269,
+   1229,
+   1194,
+   1166,
+   1132,
+   1150,
+   1189,
+   1136,
+   1109,
+   1093,
+   1069,
+   1048,
+   1043,
+   1030,
+   1017,
+   1007,
+   995,
+   990,
+   986,
+   980,
+   976,
+   972,
+   968,
+   962,
+   958,
+   952,
+   946,
+   942,
+   943,
+   945,
+   946,
+   943
+  ]
+ },
+ "random_same_budget_as_backprop": {
+  "mae_end": 911,
+  "forward_passes": 800
+ },
+ "random_same_budget_as_one_knob": {
+  "mae_end": 836,
+  "forward_passes": 13600
+ },
+ "fit_curve": [
+  {
+   "temp_c": 0,
+   "pred": 2248
+  },
+  {
+   "temp_c": 2,
+   "pred": 2199
+  },
+  {
+   "temp_c": 4,
+   "pred": 2163
+  },
+  {
+   "temp_c": 6,
+   "pred": 2160
+  },
+  {
+   "temp_c": 8,
+   "pred": 2487
+  },
+  {
+   "temp_c": 10,
+   "pred": 3018
+  },
+  {
+   "temp_c": 12,
+   "pred": 3532
+  },
+  {
+   "temp_c": 14,
+   "pred": 4039
+  },
+  {
+   "temp_c": 16,
+   "pred": 4545
+  },
+  {
+   "temp_c": 18,
+   "pred": 5051
+  },
+  {
+   "temp_c": 20,
+   "pred": 5557
+  },
+  {
+   "temp_c": 22,
+   "pred": 5924
+  },
+  {
+   "temp_c": 24,
+   "pred": 6143
+  },
+  {
+   "temp_c": 26,
+   "pred": 6362
+  },
+  {
+   "temp_c": 28,
+   "pred": 6581
+  },
+  {
+   "temp_c": 30,
+   "pred": 6800
+  },
+  {
+   "temp_c": 32,
+   "pred": 7019
+  },
+  {
+   "temp_c": 34,
+   "pred": 7238
+  },
+  {
+   "temp_c": 36,
+   "pred": 7457
+  }
+ ],
+ "scatter": [
+  {
+   "temp_c": 15.2,
+   "rides": 2294
+  },
+  {
+   "temp_c": 11.2,
+   "rides": 1951
+  },
+  {
+   "temp_c": 6.1,
+   "rides": 2236
+  },
+  {
+   "temp_c": 4.4,
+   "rides": 2368
+  },
+  {
+   "temp_c": 10.9,
+   "rides": 3272
+  },
+  {
+   "temp_c": 13.7,
+   "rides": 4098
+  },
+  {
+   "temp_c": 16.1,
+   "rides": 4521
+  },
+  {
+   "temp_c": 13.8,
+   "rides": 3425
+  },
+  {
+   "temp_c": 9.2,
+   "rides": 2376
+  },
+  {
+   "temp_c": 12.7,
+   "rides": 3598
+  },
+  {
+   "temp_c": 11.2,
+   "rides": 2177
+  },
+  {
+   "temp_c": 15.7,
+   "rides": 4097
+  },
+  {
+   "temp_c": 11.2,
+   "rides": 3214
+  },
+  {
+   "temp_c": 7.4,
+   "rides": 2493
+  },
+  {
+   "temp_c": 6.8,
+   "rides": 2311
+  },
+  {
+   "temp_c": 7.8,
+   "rides": 2298
+  },
+  {
+   "temp_c": 15.3,
+   "rides": 2935
+  },
+  {
+   "temp_c": 12.4,
+   "rides": 3376
+  },
+  {
+   "temp_c": 7.8,
+   "rides": 3292
+  },
+  {
+   "temp_c": 8.9,
+   "rides": 3163
+  },
+  {
+   "temp_c": 7.1,
+   "rides": 1301
+  },
+  {
+   "temp_c": 6.7,
+   "rides": 1977
+  },
+  {
+   "temp_c": 9.0,
+   "rides": 2432
+  },
+  {
+   "temp_c": 14.0,
+   "rides": 4339
+  },
+  {
+   "temp_c": 12.1,
+   "rides": 4270
+  },
+  {
+   "temp_c": 14.0,
+   "rides": 4075
+  },
+  {
+   "temp_c": 17.4,
+   "rides": 3456
+  },
+  {
+   "temp_c": 12.9,
+   "rides": 4023
+  },
+  {
+   "temp_c": 11.6,
+   "rides": 3243
+  },
+  {
+   "temp_c": 11.0,
+   "rides": 3624
+  },
+  {
+   "temp_c": 16.0,
+   "rides": 4509
+  },
+  {
+   "temp_c": 19.2,
+   "rides": 4579
+  },
+  {
+   "temp_c": 16.4,
+   "rides": 3761
+  },
+  {
+   "temp_c": 12.8,
+   "rides": 4151
+  },
+  {
+   "temp_c": 10.8,
+   "rides": 2832
+  },
+  {
+   "temp_c": 10.9,
+   "rides": 2947
+  },
+  {
+   "temp_c": 11.6,
+   "rides": 3784
+  },
+  {
+   "temp_c": 14.5,
+   "rides": 4375
+  },
+  {
+   "temp_c": 10.5,
+   "rides": 2802
+  },
+  {
+   "temp_c": 10.9,
+   "rides": 3830
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 3831
+  },
+  {
+   "temp_c": 9.2,
+   "rides": 2169
+  },
+  {
+   "temp_c": 5.2,
+   "rides": 1529
+  },
+  {
+   "temp_c": 9.1,
+   "rides": 3422
+  },
+  {
+   "temp_c": 13.1,
+   "rides": 3922
+  },
+  {
+   "temp_c": 14.3,
+   "rides": 4169
+  },
+  {
+   "temp_c": 13.0,
+   "rides": 3005
+  },
+  {
+   "temp_c": 14.1,
+   "rides": 4154
+  },
+  {
+   "temp_c": 14.2,
+   "rides": 4318
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 2689
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 3129
+  },
+  {
+   "temp_c": 11.8,
+   "rides": 3777
+  },
+  {
+   "temp_c": 16.2,
+   "rides": 4773
+  },
+  {
+   "temp_c": 18.6,
+   "rides": 5062
+  },
+  {
+   "temp_c": 16.7,
+   "rides": 3487
+  },
+  {
+   "temp_c": 11.9,
+   "rides": 2732
+  },
+  {
+   "temp_c": 11.4,
+   "rides": 3389
+  },
+  {
+   "temp_c": 15.0,
+   "rides": 4322
+  },
+  {
+   "temp_c": 14.7,
+   "rides": 4363
+  },
+  {
+   "temp_c": 14.1,
+   "rides": 1834
+  },
+  {
+   "temp_c": 19.9,
+   "rides": 4990
+  },
+  {
+   "temp_c": 14.5,
+   "rides": 3194
+  },
+  {
+   "temp_c": 17.0,
+   "rides": 4066
+  },
+  {
+   "temp_c": 13.4,
+   "rides": 3423
+  },
+  {
+   "temp_c": 10.0,
+   "rides": 3333
+  },
+  {
+   "temp_c": 10.6,
+   "rides": 3956
+  },
+  {
+   "temp_c": 16.6,
+   "rides": 4916
+  },
+  {
+   "temp_c": 21.6,
+   "rides": 5382
+  },
+  {
+   "temp_c": 16.8,
+   "rides": 4569
+  },
+  {
+   "temp_c": 11.8,
+   "rides": 4118
+  },
+  {
+   "temp_c": 14.8,
+   "rides": 4911
+  },
+  {
+   "temp_c": 19.1,
+   "rides": 5298
+  },
+  {
+   "temp_c": 23.2,
+   "rides": 5847
+  },
+  {
+   "temp_c": 23.5,
+   "rides": 6312
+  },
+  {
+   "temp_c": 22.9,
+   "rides": 6192
+  },
+  {
+   "temp_c": 17.9,
+   "rides": 4378
+  },
+  {
+   "temp_c": 21.1,
+   "rides": 7836
+  },
+  {
+   "temp_c": 19.4,
+   "rides": 5892
+  },
+  {
+   "temp_c": 22.3,
+   "rides": 6153
+  },
+  {
+   "temp_c": 23.0,
+   "rides": 6093
+  },
+  {
+   "temp_c": 21.8,
+   "rides": 6230
+  },
+  {
+   "temp_c": 22.7,
+   "rides": 6871
+  },
+  {
+   "temp_c": 24.7,
+   "rides": 8362
+  },
+  {
+   "temp_c": 20.6,
+   "rides": 3372
+  },
+  {
+   "temp_c": 17.9,
+   "rides": 4996
+  },
+  {
+   "temp_c": 18.3,
+   "rides": 5558
+  },
+  {
+   "temp_c": 13.3,
+   "rides": 5102
+  },
+  {
+   "temp_c": 19.9,
+   "rides": 5698
+  },
+  {
+   "temp_c": 20.3,
+   "rides": 6133
+  },
+  {
+   "temp_c": 15.2,
+   "rides": 5459
+  },
+  {
+   "temp_c": 17.4,
+   "rides": 6235
+  },
+  {
+   "temp_c": 17.5,
+   "rides": 6041
+  },
+  {
+   "temp_c": 17.8,
+   "rides": 5936
+  },
+  {
+   "temp_c": 19.1,
+   "rides": 6772
+  },
+  {
+   "temp_c": 22.2,
+   "rides": 6436
+  },
+  {
+   "temp_c": 17.8,
+   "rides": 6457
+  },
+  {
+   "temp_c": 16.5,
+   "rides": 6460
+  },
+  {
+   "temp_c": 17.9,
+   "rides": 6857
+  },
+  {
+   "temp_c": 20.5,
+   "rides": 5169
+  },
+  {
+   "temp_c": 20.1,
+   "rides": 5585
+  },
+  {
+   "temp_c": 18.3,
+   "rides": 5918
+  },
+  {
+   "temp_c": 14.3,
+   "rides": 4862
+  },
+  {
+   "temp_c": 16.3,
+   "rides": 5409
+  },
+  {
+   "temp_c": 18.1,
+   "rides": 6398
+  },
+  {
+   "temp_c": 20.3,
+   "rides": 7460
+  },
+  {
+   "temp_c": 24.9,
+   "rides": 7132
+  },
+  {
+   "temp_c": 27.2,
+   "rides": 6370
+  },
+  {
+   "temp_c": 24.9,
+   "rides": 6691
+  },
+  {
+   "temp_c": 19.0,
+   "rides": 4367
+  },
+  {
+   "temp_c": 20.4,
+   "rides": 6565
+  },
+  {
+   "temp_c": 21.6,
+   "rides": 7290
+  },
+  {
+   "temp_c": 23.4,
+   "rides": 6624
+  },
+  {
+   "temp_c": 16.3,
+   "rides": 1027
+  },
+  {
+   "temp_c": 13.2,
+   "rides": 3214
+  },
+  {
+   "temp_c": 16.9,
+   "rides": 5633
+  },
+  {
+   "temp_c": 19.5,
+   "rides": 6196
+  },
+  {
+   "temp_c": 20.4,
+   "rides": 5026
+  },
+  {
+   "temp_c": 18.8,
+   "rides": 6233
+  },
+  {
+   "temp_c": 15.4,
+   "rides": 4220
+  },
+  {
+   "temp_c": 18.8,
+   "rides": 6304
+  },
+  {
+   "temp_c": 19.0,
+   "rides": 5572
+  },
+  {
+   "temp_c": 25.1,
+   "rides": 5740
+  },
+  {
+   "temp_c": 23.1,
+   "rides": 6169
+  },
+  {
+   "temp_c": 23.0,
+   "rides": 6421
+  },
+  {
+   "temp_c": 25.7,
+   "rides": 6296
+  },
+  {
+   "temp_c": 25.5,
+   "rides": 6883
+  },
+  {
+   "temp_c": 23.1,
+   "rides": 6359
+  },
+  {
+   "temp_c": 22.0,
+   "rides": 6273
+  },
+  {
+   "temp_c": 23.8,
+   "rides": 5728
+  },
+  {
+   "temp_c": 23.6,
+   "rides": 4717
+  },
+  {
+   "temp_c": 20.7,
+   "rides": 6572
+  },
+  {
+   "temp_c": 21.9,
+   "rides": 7030
+  },
+  {
+   "temp_c": 23.1,
+   "rides": 7429
+  },
+  {
+   "temp_c": 25.1,
+   "rides": 6118
+  },
+  {
+   "temp_c": 23.5,
+   "rides": 2843
+  },
+  {
+   "temp_c": 25.1,
+   "rides": 5115
+  },
+  {
+   "temp_c": 26.1,
+   "rides": 7424
+  },
+  {
+   "temp_c": 24.3,
+   "rides": 7384
+  },
+  {
+   "temp_c": 23.1,
+   "rides": 7639
+  },
+  {
+   "temp_c": 24.6,
+   "rides": 8294
+  },
+  {
+   "temp_c": 25.5,
+   "rides": 7129
+  },
+  {
+   "temp_c": 24.5,
+   "rides": 4359
+  },
+  {
+   "temp_c": 25.2,
+   "rides": 6073
+  },
+  {
+   "temp_c": 25.5,
+   "rides": 5260
+  },
+  {
+   "temp_c": 26.9,
+   "rides": 6770
+  },
+  {
+   "temp_c": 27.9,
+   "rides": 6734
+  },
+  {
+   "temp_c": 28.4,
+   "rides": 6536
+  },
+  {
+   "temp_c": 28.3,
+   "rides": 6591
+  },
+  {
+   "temp_c": 29.2,
+   "rides": 6043
+  },
+  {
+   "temp_c": 29.6,
+   "rides": 5743
+  },
+  {
+   "temp_c": 26.9,
+   "rides": 6855
+  },
+  {
+   "temp_c": 27.9,
+   "rides": 7338
+  },
+  {
+   "temp_c": 26.8,
+   "rides": 4127
+  },
+  {
+   "temp_c": 23.9,
+   "rides": 8120
+  },
+  {
+   "temp_c": 24.7,
+   "rides": 7641
+  },
+  {
+   "temp_c": 24.5,
+   "rides": 6998
+  },
+  {
+   "temp_c": 22.2,
+   "rides": 7001
+  },
+  {
+   "temp_c": 22.7,
+   "rides": 7055
+  },
+  {
+   "temp_c": 24.7,
+   "rides": 7494
+  },
+  {
+   "temp_c": 26.6,
+   "rides": 7736
+  },
+  {
+   "temp_c": 29.1,
+   "rides": 7498
+  },
+  {
+   "temp_c": 29.8,
+   "rides": 6598
+  },
+  {
+   "temp_c": 29.6,
+   "rides": 6664
+  },
+  {
+   "temp_c": 26.8,
+   "rides": 4972
+  },
+  {
+   "temp_c": 26.9,
+   "rides": 7421
+  },
+  {
+   "temp_c": 26.6,
+   "rides": 7363
+  },
+  {
+   "temp_c": 26.2,
+   "rides": 7665
+  },
+  {
+   "temp_c": 25.9,
+   "rides": 7702
+  },
+  {
+   "temp_c": 24.3,
+   "rides": 6978
+  },
+  {
+   "temp_c": 23.3,
+   "rides": 5099
+  },
+  {
+   "temp_c": 28.2,
+   "rides": 6825
+  },
+  {
+   "temp_c": 32.1,
+   "rides": 6211
+  },
+  {
+   "temp_c": 33.0,
+   "rides": 5905
+  },
+  {
+   "temp_c": 31.9,
+   "rides": 5823
+  },
+  {
+   "temp_c": 30.0,
+   "rides": 7458
+  },
+  {
+   "temp_c": 30.5,
+   "rides": 6891
+  },
+  {
+   "temp_c": 29.3,
+   "rides": 6779
+  },
+  {
+   "temp_c": 25.9,
+   "rides": 7442
+  },
+  {
+   "temp_c": 28.6,
+   "rides": 7335
+  },
+  {
+   "temp_c": 30.7,
+   "rides": 6879
+  },
+  {
+   "temp_c": 34.2,
+   "rides": 5463
+  },
+  {
+   "temp_c": 31.4,
+   "rides": 5687
+  },
+  {
+   "temp_c": 33.4,
+   "rides": 5531
+  },
+  {
+   "temp_c": 32.0,
+   "rides": 6227
+  },
+  {
+   "temp_c": 32.0,
+   "rides": 6660
+  },
+  {
+   "temp_c": 32.4,
+   "rides": 7403
+  },
+  {
+   "temp_c": 33.9,
+   "rides": 6241
+  },
+  {
+   "temp_c": 34.0,
+   "rides": 6207
+  },
+  {
+   "temp_c": 35.3,
+   "rides": 4840
+  },
+  {
+   "temp_c": 33.7,
+   "rides": 4672
+  },
+  {
+   "temp_c": 29.1,
+   "rides": 6569
+  },
+  {
+   "temp_c": 29.6,
+   "rides": 6290
+  },
+  {
+   "temp_c": 29.4,
+   "rides": 7264
+  },
+  {
+   "temp_c": 29.3,
+   "rides": 7446
+  },
+  {
+   "temp_c": 30.0,
+   "rides": 7499
+  },
+  {
+   "temp_c": 28.8,
+   "rides": 6969
+  },
+  {
+   "temp_c": 30.6,
+   "rides": 6031
+  },
+  {
+   "temp_c": 31.3,
+   "rides": 6830
+  },
+  {
+   "temp_c": 33.6,
+   "rides": 6786
+  },
+  {
+   "temp_c": 32.5,
+   "rides": 5713
+  },
+  {
+   "temp_c": 31.6,
+   "rides": 6591
+  },
+  {
+   "temp_c": 27.3,
+   "rides": 5870
+  },
+  {
+   "temp_c": 24.4,
+   "rides": 4459
+  },
+  {
+   "temp_c": 27.4,
+   "rides": 7410
+  },
+  {
+   "temp_c": 30.4,
+   "rides": 6966
+  },
+  {
+   "temp_c": 30.8,
+   "rides": 7592
+  },
+  {
+   "temp_c": 29.7,
+   "rides": 8173
+  },
+  {
+   "temp_c": 31.8,
+   "rides": 6861
+  },
+  {
+   "temp_c": 32.0,
+   "rides": 6904
+  },
+  {
+   "temp_c": 31.0,
+   "rides": 6685
+  },
+  {
+   "temp_c": 29.6,
+   "rides": 6597
+  },
+  {
+   "temp_c": 30.0,
+   "rides": 7105
+  },
+  {
+   "temp_c": 29.2,
+   "rides": 7216
+  },
+  {
+   "temp_c": 29.4,
+   "rides": 7580
+  },
+  {
+   "temp_c": 30.9,
+   "rides": 7261
+  },
+  {
+   "temp_c": 31.4,
+   "rides": 7175
+  },
+  {
+   "temp_c": 32.5,
+   "rides": 6824
+  },
+  {
+   "temp_c": 31.5,
+   "rides": 5464
+  },
+  {
+   "temp_c": 30.9,
+   "rides": 7013
+  },
+  {
+   "temp_c": 30.2,
+   "rides": 7273
+  },
+  {
+   "temp_c": 30.8,
+   "rides": 7534
+  },
+  {
+   "temp_c": 31.0,
+   "rides": 7286
+  },
+  {
+   "temp_c": 29.3,
+   "rides": 5786
+  },
+  {
+   "temp_c": 28.4,
+   "rides": 6299
+  },
+  {
+   "temp_c": 28.7,
+   "rides": 6544
+  },
+  {
+   "temp_c": 29.6,
+   "rides": 6883
+  },
+  {
+   "temp_c": 29.8,
+   "rides": 6784
+  },
+  {
+   "temp_c": 29.0,
+   "rides": 7347
+  },
+  {
+   "temp_c": 29.5,
+   "rides": 7605
+  },
+  {
+   "temp_c": 29.7,
+   "rides": 7148
+  },
+  {
+   "temp_c": 27.8,
+   "rides": 7865
+  },
+  {
+   "temp_c": 26.1,
+   "rides": 4549
+  },
+  {
+   "temp_c": 26.1,
+   "rides": 6530
+  },
+  {
+   "temp_c": 26.6,
+   "rides": 7006
+  },
+  {
+   "temp_c": 27.4,
+   "rides": 7375
+  },
+  {
+   "temp_c": 28.5,
+   "rides": 7765
+  },
+  {
+   "temp_c": 28.8,
+   "rides": 7582
+  },
+  {
+   "temp_c": 27.1,
+   "rides": 6053
+  },
+  {
+   "temp_c": 26.8,
+   "rides": 5255
+  },
+  {
+   "temp_c": 28.8,
+   "rides": 6917
+  },
+  {
+   "temp_c": 29.9,
+   "rides": 7040
+  },
+  {
+   "temp_c": 28.1,
+   "rides": 7697
+  },
+  {
+   "temp_c": 29.0,
+   "rides": 7713
+  },
+  {
+   "temp_c": 31.3,
+   "rides": 7350
+  },
+  {
+   "temp_c": 30.9,
+   "rides": 6140
+  },
+  {
+   "temp_c": 28.6,
+   "rides": 5810
+  },
+  {
+   "temp_c": 29.0,
+   "rides": 6034
+  },
+  {
+   "temp_c": 29.8,
+   "rides": 6864
+  },
+  {
+   "temp_c": 30.2,
+   "rides": 7112
+  },
+  {
+   "temp_c": 28.6,
+   "rides": 6203
+  },
+  {
+   "temp_c": 28.8,
+   "rides": 7504
+  },
+  {
+   "temp_c": 27.0,
+   "rides": 5976
+  },
+  {
+   "temp_c": 25.0,
+   "rides": 8227
+  },
+  {
+   "temp_c": 23.9,
+   "rides": 7525
+  },
+  {
+   "temp_c": 23.7,
+   "rides": 7767
+  },
+  {
+   "temp_c": 24.6,
+   "rides": 7870
+  },
+  {
+   "temp_c": 25.1,
+   "rides": 7804
+  },
+  {
+   "temp_c": 26.0,
+   "rides": 8009
+  },
+  {
+   "temp_c": 24.9,
+   "rides": 8714
+  },
+  {
+   "temp_c": 23.8,
+   "rides": 7333
+  },
+  {
+   "temp_c": 23.8,
+   "rides": 6869
+  },
+  {
+   "temp_c": 25.6,
+   "rides": 4073
+  },
+  {
+   "temp_c": 22.7,
+   "rides": 7591
+  },
+  {
+   "temp_c": 22.4,
+   "rides": 7720
+  },
+  {
+   "temp_c": 24.6,
+   "rides": 8167
+  },
+  {
+   "temp_c": 26.7,
+   "rides": 8395
+  },
+  {
+   "temp_c": 21.7,
+   "rides": 7907
+  },
+  {
+   "temp_c": 21.1,
+   "rides": 7436
+  },
+  {
+   "temp_c": 22.6,
+   "rides": 7538
+  },
+  {
+   "temp_c": 26.0,
+   "rides": 7733
+  },
+  {
+   "temp_c": 26.7,
+   "rides": 7393
+  },
+  {
+   "temp_c": 25.4,
+   "rides": 7415
+  },
+  {
+   "temp_c": 22.2,
+   "rides": 8555
+  },
+  {
+   "temp_c": 21.6,
+   "rides": 6889
+  },
+  {
+   "temp_c": 21.4,
+   "rides": 6778
+  },
+  {
+   "temp_c": 24.2,
+   "rides": 4639
+  },
+  {
+   "temp_c": 27.0,
+   "rides": 7572
+  },
+  {
+   "temp_c": 27.0,
+   "rides": 7328
+  },
+  {
+   "temp_c": 25.2,
+   "rides": 8156
+  },
+  {
+   "temp_c": 22.7,
+   "rides": 7965
+  },
+  {
+   "temp_c": 17.0,
+   "rides": 3510
+  },
+  {
+   "temp_c": 15.7,
+   "rides": 5478
+  },
+  {
+   "temp_c": 18.3,
+   "rides": 6392
+  },
+  {
+   "temp_c": 21.1,
+   "rides": 7691
+  },
+  {
+   "temp_c": 17.8,
+   "rides": 7570
+  },
+  {
+   "temp_c": 17.9,
+   "rides": 7282
+  },
+  {
+   "temp_c": 16.1,
+   "rides": 7109
+  },
+  {
+   "temp_c": 21.4,
+   "rides": 6639
+  },
+  {
+   "temp_c": 23.0,
+   "rides": 5875
+  },
+  {
+   "temp_c": 19.2,
+   "rides": 7534
+  },
+  {
+   "temp_c": 18.7,
+   "rides": 7461
+  },
+  {
+   "temp_c": 21.4,
+   "rides": 7509
+  },
+  {
+   "temp_c": 23.1,
+   "rides": 5424
+  },
+  {
+   "temp_c": 19.9,
+   "rides": 8090
+  },
+  {
+   "temp_c": 19.0,
+   "rides": 6824
+  },
+  {
+   "temp_c": 20.0,
+   "rides": 7058
+  },
+  {
+   "temp_c": 22.3,
+   "rides": 7466
+  },
+  {
+   "temp_c": 24.1,
+   "rides": 7693
+  },
+  {
+   "temp_c": 22.6,
+   "rides": 7359
+  },
+  {
+   "temp_c": 22.4,
+   "rides": 7444
+  },
+  {
+   "temp_c": 21.7,
+   "rides": 7852
+  },
+  {
+   "temp_c": 19.6,
+   "rides": 4459
+  },
+  {
+   "temp_c": 18.0,
+   "rides": 22
+  },
+  {
+   "temp_c": 13.0,
+   "rides": 1096
+  },
+  {
+   "temp_c": 14.7,
+   "rides": 5566
+  },
+  {
+   "temp_c": 15.0,
+   "rides": 5986
+  },
+  {
+   "temp_c": 14.6,
+   "rides": 5847
+  },
+  {
+   "temp_c": 14.1,
+   "rides": 5138
+  },
+  {
+   "temp_c": 13.4,
+   "rides": 5107
+  },
+  {
+   "temp_c": 13.1,
+   "rides": 5259
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 5686
+  },
+  {
+   "temp_c": 12.1,
+   "rides": 5035
+  },
+  {
+   "temp_c": 14.4,
+   "rides": 5315
+  },
+  {
+   "temp_c": 14.8,
+   "rides": 5992
+  },
+  {
+   "temp_c": 16.0,
+   "rides": 6536
+  },
+  {
+   "temp_c": 17.3,
+   "rides": 6852
+  },
+  {
+   "temp_c": 19.9,
+   "rides": 6269
+  },
+  {
+   "temp_c": 14.1,
+   "rides": 4094
+  },
+  {
+   "temp_c": 11.9,
+   "rides": 5495
+  },
+  {
+   "temp_c": 13.2,
+   "rides": 5445
+  },
+  {
+   "temp_c": 14.1,
+   "rides": 5698
+  },
+  {
+   "temp_c": 13.3,
+   "rides": 5629
+  },
+  {
+   "temp_c": 14.0,
+   "rides": 4669
+  },
+  {
+   "temp_c": 15.6,
+   "rides": 5499
+  },
+  {
+   "temp_c": 15.3,
+   "rides": 5634
+  },
+  {
+   "temp_c": 14.5,
+   "rides": 5146
+  },
+  {
+   "temp_c": 13.9,
+   "rides": 2425
+  },
+  {
+   "temp_c": 15.1,
+   "rides": 3910
+  },
+  {
+   "temp_c": 11.4,
+   "rides": 2277
+  },
+  {
+   "temp_c": 10.1,
+   "rides": 2424
+  },
+  {
+   "temp_c": 12.8,
+   "rides": 5087
+  },
+  {
+   "temp_c": 12.0,
+   "rides": 3959
+  },
+  {
+   "temp_c": 12.2,
+   "rides": 5260
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 5323
+  },
+  {
+   "temp_c": 12.2,
+   "rides": 5668
+  },
+  {
+   "temp_c": 12.2,
+   "rides": 5191
+  },
+  {
+   "temp_c": 14.2,
+   "rides": 4649
+  },
+  {
+   "temp_c": 18.6,
+   "rides": 6234
+  },
+  {
+   "temp_c": 19.5,
+   "rides": 6606
+  },
+  {
+   "temp_c": 18.0,
+   "rides": 5729
+  },
+  {
+   "temp_c": 10.5,
+   "rides": 5375
+  },
+  {
+   "temp_c": 13.2,
+   "rides": 5008
+  },
+  {
+   "temp_c": 15.6,
+   "rides": 5582
+  },
+  {
+   "temp_c": 15.8,
+   "rides": 3228
+  },
+  {
+   "temp_c": 17.9,
+   "rides": 5170
+  },
+  {
+   "temp_c": 14.5,
+   "rides": 5501
+  },
+  {
+   "temp_c": 12.2,
+   "rides": 5319
+  },
+  {
+   "temp_c": 12.1,
+   "rides": 5532
+  },
+  {
+   "temp_c": 11.5,
+   "rides": 5611
+  },
+  {
+   "temp_c": 13.3,
+   "rides": 5047
+  },
+  {
+   "temp_c": 14.9,
+   "rides": 3786
+  },
+  {
+   "temp_c": 16.1,
+   "rides": 4585
+  },
+  {
+   "temp_c": 16.8,
+   "rides": 5557
+  },
+  {
+   "temp_c": 13.6,
+   "rides": 5267
+  },
+  {
+   "temp_c": 13.5,
+   "rides": 4128
+  },
+  {
+   "temp_c": 13.4,
+   "rides": 3623
+  },
+  {
+   "temp_c": 10.9,
+   "rides": 1749
+  },
+  {
+   "temp_c": 10.1,
+   "rides": 1787
+  },
+  {
+   "temp_c": 9.5,
+   "rides": 920
+  },
+  {
+   "temp_c": 11.9,
+   "rides": 1013
+  },
+  {
+   "temp_c": 10.0,
+   "rides": 441
+  },
+  {
+   "temp_c": 10.4,
+   "rides": 2114
+  },
+  {
+   "temp_c": 10.4,
+   "rides": 3095
+  },
+  {
+   "temp_c": 10.4,
+   "rides": 1341
+  },
+  {
+   "temp_c": 10.5,
+   "rides": 1796
+  },
+  {
+   "temp_c": 8.8,
+   "rides": 2729
+  }
+ ]
+}
